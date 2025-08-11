@@ -52,7 +52,7 @@ const (
 
 var unsupportedS3Props = []string{
 	S3ConnectTimeout,
-	S3SignerUri,
+	// S3SignerUri,
 }
 
 // ParseAWSConfig parses S3 properties and returns a configuration.
